@@ -53,6 +53,7 @@ send_keys(Keys.CONTROL, 'a')
 #	context_click() 右击	
 #	double_click() 双击
 #	drag_and_drop() 拖动
+#move_to_element() 鼠标移动
 #这里的用法稍有不同
 #导入ActionChains
 from selenium.webdriver.common.action_chains import ActionChains
@@ -67,6 +68,7 @@ element = driver.find_.....
 target = driver.find_.....
 #		拖放操作
 ActionChains(driver).drag_and_drop(element, target).perform()
-
+#鼠标移动
+ActionChains(driver).move_to_element(pp).perform()
 #之后还有一些操作，目前还用不到，参考文档：https://wenku.baidu.com/view/211fbafecc7931b764ce1550.html
 #从28页之后还未仔细学习
