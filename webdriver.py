@@ -72,3 +72,6 @@ ActionChains(driver).drag_and_drop(element, target).perform()
 ActionChains(driver).move_to_element(pp).perform()
 #之后还有一些操作，目前还用不到，参考文档：https://wenku.baidu.com/view/211fbafecc7931b764ce1550.html
 #从28页之后还未仔细学习
+
+#好厉害的鼠标悬停例子
+ActionChains(driver).move_to_element_with_offset(xoy, 1, 0).perform()
