@@ -75,3 +75,6 @@ ActionChains(driver).move_to_element(pp).perform()
 
 #好厉害的鼠标悬停例子
 ActionChains(driver).move_to_element_with_offset(xoy, 1, 0).perform()
+
+#元素定位，返回坐标
+loc = element.location
