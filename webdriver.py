@@ -26,6 +26,7 @@ driver.forward()
 driver.find_element_by_css_selector('#ww').clear()
 #输入内容
 driver.find_element_by_css_selector('#ww').send_keys(u'萨德')
+send_keys(a.decode('utf8'))
 #点击搜索
 driver.find_element_by_css_selector('#ww').click()
 
